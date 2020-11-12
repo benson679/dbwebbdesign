@@ -72,6 +72,11 @@ body {
     background-color: #FFFFFF;
 }
 
+.container img {
+    width: 20em;
+    float: right;
+}
+
 /* Footer */
 
 .site-footer {
@@ -125,5 +130,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     .site-footer p {
         margin-left: 2em;
+    }
+    .container img {
+        display: none;
     }
 }
