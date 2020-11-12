@@ -8,10 +8,10 @@ Description: This is our index page.
 Index till min portfolio 
 ==========================
 
-The source for this page is in `content/index.md`.
+Detta är startsidan till min portfolio inom design på BTH.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Hampus Persson och kommer från Eslöv i Skåne. 
 
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+Jag har en utbildning inom Beteendevetenskap från LU och håller nu på att lära mig om webbprogrammering på BTH.
 
-
+Jag tycker om att hålla på med datorer, köra motorcykel och gå på ölfestivaler. 

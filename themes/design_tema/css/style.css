@@ -73,8 +73,13 @@ body {
 }
 
 .container img {
-    width: 20em;
+    width: 15em;
     float: right;
+    padding-left: 1%;
+}
+
+.container {
+    margin-right: 20%;
 }
 
 /* Footer */
@@ -110,7 +115,11 @@ body {
 }
 
 .main {
-    line-height: 1.4;
+    line-height: 1.6;
+}
+
+.main li {
+    margin-bottom: 0.5em;
 }
 
 a {
