@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/rhododendron.jpg
+Tagline: Tre nyanser av grått
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/benson679/dbwebbdesign
       icon: github
 ---
