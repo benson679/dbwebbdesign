@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: Helvetica, sans-serif;
 }
@@ -16,7 +17,8 @@ body {
 
 /* Header */
 
-.title, .logo {
+.title,
+.logo {
     float: left;
     padding: 3em 3em 3em 0;
 }
@@ -32,12 +34,13 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #E2E7E5;
+    background-color: #e2e7e5;
     color: #2b2e30;
     padding: 0 2em;
 }
 
-.site-header a, .site-header a:visited {
+.site-header a,
+.site-header a:visited {
     color: #2b2e30;
 }
 
@@ -69,7 +72,7 @@ body {
 .main {
     flex: 1 0 auto;
     padding: 10em;
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 
 .container img {
@@ -86,7 +89,7 @@ body {
 
 .site-footer {
     flex: 0 0 auto;
-    background: #899C94;
+    background: #899c94;
     color: #2b2e30;
     padding: 2em;
     text-align: left;
@@ -126,20 +129,29 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.2em;
 }
 
-@media (max-width: 767px) {
-    .logo, .title {
+@media (max-width: 790px) {
+    .logo,
+    .title {
         display: none;
     }
+    
     .main {
         padding: 2em;
     }
+    
     .site-footer p {
         margin-left: 2em;
     }
+    
     .container img {
         display: none;
     }
