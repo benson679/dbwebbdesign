@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.title, .logo {
+    float: left;
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    margin: 0;
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: #E2E7E5;
+    color: #2b2e30;
+    padding: 0 2em;
+}
+
+.site-header a, .site-header a:visited {
+    color: #2b2e30;
+}
+
+.logo {
+    height: 10.8em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.logo img {
+    min-width: 4.8em;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 10em;
+    background-color: #FFFFFF;
+}
+
+.container img {
+    width: 15em;
+    float: right;
+    padding-left: 1%;
+}
+
+.container {
+    margin-right: 20%;
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background: #899C94;
+    color: #2b2e30;
+    padding: 2em;
+    text-align: left;
+}
+
+.site-footer p {
+    margin-left: 8em;
+}
+
+.site-footer a {
+    color: #f0f0f0;
+}
+
+.site-footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}
+
+/* Typography */
+
+body {
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    font-size: 1rem;
+}
+
+.main {
+    line-height: 1.6;
+}
+
+.main li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.2em;
+}
+
+@media (max-width: 767px) {
+    .logo, .title {
+        display: none;
+    }
+    .main {
+        padding: 2em;
+    }
+    .site-footer p {
+        margin-left: 2em;
+    }
+    .container img {
+        display: none;
+    }
+}
+
+.auto {
+    margin: auto;
+    text-align: center;
+}
+
+.alert {
+    background-color: $base-color;
+    border: 1px solid $border-dark;
+    height: $alert-box-size/2;
+    width: $alert-box-size;
+}
