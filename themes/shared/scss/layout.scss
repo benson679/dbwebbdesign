@@ -17,6 +17,22 @@ body {
 
 /* Header */
 
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: #e2e7e5;
+    color: #2b2e30;
+    padding: 0 2em;
+    
+    a {
+        color: #2b2e30;
+    }
+    
+    a:visited {
+        color: #2b2e30;
+    }
+}
+
 .title,
 .logo {
     float: left;
@@ -26,36 +42,41 @@ body {
 .title * {
     margin: 0;
     color: #111;
+    
+    p {
+        font-style: italic;
+    }
 }
 
-.title p {
-    font-style: italic;
-}
 
-.site-header {
-    flex: 0 0 auto;
-    background-color: #e2e7e5;
-    color: #2b2e30;
-    padding: 0 2em;
-}
+// .site-header {
+//     flex: 0 0 auto;
+//     background-color: #e2e7e5;
+//     color: #2b2e30;
+//     padding: 0 2em;
+//     a,
+//     a:visited{
+//         color: #2b2e30;
+//     }
+// }
 
-.site-header a,
-.site-header a:visited {
-    color: #2b2e30;
-}
+// .site-header a,
+// .site-header a:visited {
+//     color: #2b2e30;
+// }
 
 .logo {
     height: 10.8em;
-}
-
-.logo * {
-    display: block;
-    height: 100%;
-    border-radius: 50%;
-}
-
-.logo img {
-    min-width: 4.8em;
+    
+    * {
+        display: block;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    img {
+        min-width: 4.8em;
+    }
 }
 
 .logo+.title h1 {
@@ -65,7 +86,9 @@ body {
 .logo+.title.tagline h1 {
     margin: 0;
 }
-
+    
+    
+    
 
 /* Main */
 
@@ -75,14 +98,15 @@ body {
     background-color: #fff;
 }
 
-.container img {
-    width: 15em;
-    float: right;
-    padding-left: 1%;
-}
 
 .container {
     margin-right: 20%;
+    
+    img {
+        width: 15em;
+        float: right;
+        padding-left: 1%;
+    }
 }
 
 /* Footer */
@@ -90,25 +114,26 @@ body {
 .site-footer {
     flex: 0 0 auto;
     background: #899c94;
-    color: #2b2e30;
+    color: #f0f0f0;
     padding: 2em;
     text-align: left;
+    
+    p {
+        margin-left: 8em;
+        clear: both;
+    }
+    
+    a {
+        color: #f0f0f0;
+    }
+    
+    .social {
+        float: right;
+        padding: 1.5em 0 1.5em 1em;
+        font-size: 2rem;
+    }
 }
 
-.site-footer p {
-    margin-left: 8em;
-    clear: both;
-}
-
-.site-footer a {
-    color: #f0f0f0;
-}
-
-.site-footer .social {
-    float: right;
-    padding: 1.5em 0 1.5em 1em;
-    font-size: 2rem;
-}
 
 /* Typography */
 
@@ -120,11 +145,12 @@ body {
 
 .main {
     line-height: 1.6;
+    
+    li {
+        margin-bottom: 0.5em;
+    }
 }
 
-.main li {
-    margin-bottom: 0.5em;
-}
 
 a {
     text-decoration: none;
@@ -144,15 +170,15 @@ h6 {
     .title {
         display: none;
     }
-    
+
     .main {
         padding: 2em;
     }
-    
+
     .site-footer p {
         margin-left: 2em;
     }
-    
+
     .container img {
         display: none;
     }
