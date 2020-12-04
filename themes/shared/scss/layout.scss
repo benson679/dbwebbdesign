@@ -119,8 +119,8 @@ body {
     text-align: left;
     
     p {
+        display: inline-block;
         margin-left: 8em;
-        clear: both;
     }
     
     a {
@@ -141,6 +141,10 @@ body {
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-size: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
 }
 
 .main {
